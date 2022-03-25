@@ -12,7 +12,7 @@ public class Main {
         // Задача 2
 
         for (int i = 0; i < ints.length; i++) {
-            if (i > 0 && i != ints.length) {
+            if (i > 0) {
                 System.out.print(", ");
             }
             System.out.print(ints[i]);
