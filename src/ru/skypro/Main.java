@@ -19,6 +19,15 @@ public class Main {
         }
         System.out.println();
 
+        for (int i = 0; i < ints.length; i++) {
+            if (i != ints.length - 1) {
+                System.out.print(ints[i] + ", ");
+            } else {
+                System.out.print(ints[i]);
+            }
+        }
+        System.out.println();
+
         for (int i = 0; i < doubles.length; i++) {
             if (i > 0) {
                 System.out.print(", ");
